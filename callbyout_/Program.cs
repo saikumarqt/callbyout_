@@ -20,6 +20,20 @@ namespace callbyout_
      * but we want to get back the modified value then we will
      * go for call by out.
      * 
+     * comparision between call by value ,call by reference, call by out.
+     * 
+     * call by value             call by ref          call by out
+     * Formal parameter         will be reflected      will be reflected 
+     * modification will not
+     * be reflected back to
+     * actual parameters.
+     * passing the value.       passing address.        passing address
+     * no keyword               ref keyword             out keyword
+     * should be initialized    ref parameter should   out parameter is not required
+     *                          be initialized         to initalize
+     * 
+     * note: default passing parameter in c# .net is call by value.
+     * 
      */
     class myclas
     {
